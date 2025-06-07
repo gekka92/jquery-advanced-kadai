@@ -98,7 +98,7 @@ $(function () {
       //エラーあり
       $('#furigana').css('background-color', '#f79999');
       error = true;
-      message += 'お名前を入力してください。\n';
+      message += 'フリガナを入力してください。\n';
     } else {
       //エラーなし
       $('#furigana').css('background-color','#fafafa');
@@ -109,7 +109,7 @@ $(function () {
       //エラーあり
       $('#message').css('background-color', '#f79999');
       error = true;
-      message += 'お名前を入力してください。\n';
+      message += 'お問い合わせを入力してください。\n';
     } else {
       //エラーなし
       $('#message').css('background-color','#fafafa');
